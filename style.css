@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Montserrat:wght@400;500;600;700;900&display=swap');
+
+
+:root {
+    --thirdcolor: #F2F2F2;
+
+    --primary: #E4C2B1;
+    --secondary: #FFFFFF;
+    --forth:#EFEFEF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    position: relative;
+    padding: 2.4rem 14rem;
+    background-color: var(--thirdcolor);
+
+
+}
+
+.nav {
+
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+
+.nav h3 {
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+
+
+.mainnav li {
+
+    display: inline-block;
+
+}
+
+.mainnav li a {
+
+    text-decoration: none;
+    padding: 1.5rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 2.2rem;
+    color: #003D2B;
+
+
+}
+
+.mainnav li a:hover {
+    color: white;
+
+    background-color: grey;
+    border-radius:5px;
+
+}
+
+.getstarted {
+    padding: 1.5rem;
+    background-color: #025F44 !important;
+    border-radius: 15px;
+    color: white !important;
+
+}
+
+.getstarted a:hover {
+    padding: 1.5rem;
+    background-color: #025F44 !important;
+    border-radius: 15px;
+    color: white;
+}
+
+
+.mainBlok {
+    display: flex;
+    height: 70rem;
+    width: 100%;
+}
+
+.blok1 {
+
+    width: 50%;
+
+    background-color: var(--primary);
+
+
+}
+
+.blok2 {
+
+    width: 50%;
+    background-image: url(./img/Image-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.blok1 h1 {
+
+    letter-spacing: 0.3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 6rem;
+}
+
+.blok1 li {
+    list-style-type: none;
+    padding-bottom: 4rem;
+    padding-top: 2rem;
+    padding-left: 0.5rem;
+
+    font-weight: 500;
+    font-size: 2.2rem;
+
+
+}
+
+.click {
+    background-image: url(./img/nav.svg);
+}
+
+.text {
+    position: absolute;
+    top: 20rem;
+    left: 10rem;
+
+}
+
+.text a {
+    text-decoration: none;
+    color: white;
+    background-color: #025F44;
+    border-radius: 1rem;
+    padding: 1.5rem;
+
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.text li::before {
+    content: url(./img/Tick_icon.svg);
+    padding-right: 1rem;
+
+
+}
+
+.text p {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 2.5rem;
+
+
+}
+
+.section1 {
+    height: 41.6rem;
+    width: 100%;
+    background-color: #EFEFEF;
+}
+
+.text2 {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    position: relative;
+
+    top: 14rem;
+
+}
+
+
+
+
+.heart {
+    display: inline-block;
+    padding: 3rem;
+    background-image: url(./img/heart.svg);
+    background-color: var(--primary);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 3rem;
+}
+
+.thunder {
+    display: inline-block;
+    padding: 3rem;
+    background-image: url(./img/thunder.svg);
+    background-color: var(--primary);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 3rem;
+}
+
+.users {
+    display: inline-block;
+    padding: 3rem;
+    background-image: url(./img/users.svg);
+    background-color: var(--primary);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 3rem;
+
+}
+
+.boldtext {
+    font-size: 2.5rem;
+    font-weight: 600;
+
+}
+
+.noboldtext {
+    padding-top: 1rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #6A6E6D;
+}
+
+.part3 {
+    display: flex;
+    height: 66.1rem;
+    width: 100%;
+}
+
+.tarif {
+    width: 50%;
+    background-color: #FFFFFF;
+
+
+}
+
+.benefit {
+    width: 50%;
+    background-color: #E4C2B1;
+    position: relative;
+}
+
+.tariftext {
+    position: relative;
+    top: 12.6rem;
+    left: 14rem;
+}
+
+.tariftext h2 {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.tariftext li {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 1rem;
+    list-style-type: none;
+}
+
+.tariftext a {
+    color: #045725;
+
+}
+
+.benefittext {
+    position: relative;
+    top: 10.4rem;
+    left: 13.4rem;
+    height: 45.3rem;
+    width: 53.9rem;
+    background-color: var(--thirdcolor);
+}
+
+.benefittext1 {
+    position: relative;
+    top: 3.1rem;
+    left: 2.8rem;
+}
+
+.benefittext1 h2 {
+    text-transform: uppercase;
+    font-size: 5rem;
+}
+
+.benefittext1 li {
+    list-style-type: none;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+}
+
+.benefittext1 a {
+    display: inline-block;
+
+    margin-top: 1rem;
+    text-decoration: none;
+    padding: 2rem 18rem;
+    background-color: #025F44;
+    border-radius: 1rem;
+    color: white;
+
+}
+
+.benefittext1 p {
+    margin-top: 1rem;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.benefittext1 li::before {
+    content: url(./img/Tick_icon.svg);
+    padding-right: 1rem;
+
+}
+
+.emptyblock {
+    height: 40rem;
+    width: 100%;
+    background-color: var(--secondary)
+}
+
+.part4 {
+    display: flex;
+    background-color: var(--thirdcolor);
+    height: 80.4rem;
+    width: 100%;
+
+}
+
+.damage {
+    position: relative;
+    top: 9rem;
+    left: 14rem;
+    width: 50%;
+
+}
+
+.damage li {
+
+
+    list-style-type: none;
+    padding-bottom: 1rem;
+}
+
+.damage li::before {
+
+    content: url(./img/Chair-3.svg);
+    padding-right: 2rem;
+    
+
+}
+
+.damage li::after {
+    display: block;
+
+    content: url(./img/Arrow-5.svg);
+    padding-left: 50rem;
+    
+}
+
+.damagebold {
+    
+
+    font-size: 2rem;
+    font-weight: 600;
+    color: #000000;
+   
+    text-transform: capitalize;
+
+
+
+}
+
+.damagedunbold {
+
+    font-size: 2rem;
+    font-weight: 500;
+    color: #6A6E6D;
+    text-transform: lowercase;
+
+
+}
+
+.extensions {
+    position: relative;
+    top: 9rem;
+
+}
+.extensions h3 {
+    font-size: 5rem;
+    font-weight: 700;
+}
+.extensions li{
+    
+    font-size:2rem;
+    font-weight: 500;
+    color:#333333;
+    margin-top: 1.5rem;
+    padding-bottom: 1rem;
+    list-style-type: none;
+    
+}
+.part5{
+    display: flex;
+    height:65rem;
+    width:100%;
+    background-color:var(--thirdcolors);
+}
+.servicelist {
+    width:60%;
+    position: relative;
+    top: 1.8rem;
+    left:10rem
+}
+.servicelist li {
+    list-style-type: none;
+    padding: 1rem;
+    display: block;
+}
+
+.servicelist li::before {
+    display: block;
+
+    content: url(./img/Tick_icon.svg);
+    padding-right: 2rem;
+    
+
+}
+.servicelist li::after {
+    
+
+    content: url(./img/Down_arrow-7.svg);
+    padding-left: 65rem;
+    
+}
+.unboldservice {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #929393;
+}
+.amount {
+    position: relative;
+    top: 1.8rem;
+
+}
+.amount::before{
+    
+   content: url(./img/Cross_icon-6.svg);
+
+}
+.amount p {
+    display: inline-block;
+}
+.part6 {
+    display: flex;
+    height:38rem;
+    width:100%;
+    background-color:var(--forth);
+
+}
+.google{
+    position: relative;
+    top:11.9rem;
+}
+.google p {
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
