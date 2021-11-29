@@ -70,11 +70,11 @@ html {
 
 }
 
-.getstarted {
+.mainnav .getstarted a {
     padding: 1.5rem;
     background-color: #025F44 !important;
     border-radius: 15px;
-    color: white !important;
+    color: white ;
 
 }
 
